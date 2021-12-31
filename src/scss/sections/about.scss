@@ -1,0 +1,43 @@
+.about {
+    padding: 93px 0 115px;
+    background: #FFFFFF;
+}
+
+
+@media screen and (max-width: 375px) {
+    .about {
+        padding: 25px 0 25px;
+    }
+}
+
+.about__title {
+    margin-bottom: 76px;
+}
+
+@media screen and (max-width: 375px) {
+.about__title {
+    font-weight: 600;
+    margin-bottom: 19px;
+    text-align: center;
+    }
+}   
+
+.about__txt {
+    margin-bottom: 30px;
+}
+
+.about__txt:last-child {
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 375px) {
+    .about__txt {
+        font-size: 1.2rem;
+        line-height: 1.25;
+        margin-bottom: 10px;
+    }
+    
+    .about__txt:last-child {
+        margin-bottom: 0;
+    }
+}

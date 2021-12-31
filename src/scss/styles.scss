@@ -1,3 +1,12 @@
-body {
-  background-color: red;
-}
+@import "mixins";
+@import "reset";
+@import "font";
+@import "component";
+@import "style";
+
+
+@import "sections/hero";
+@import "sections/about";
+@import "sections/skills";
+@import "sections/portfolio";
+@import "sections/footer";
